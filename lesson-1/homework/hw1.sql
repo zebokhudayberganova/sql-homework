@@ -33,7 +33,7 @@ Select * from Students
 Describe the differences between SQL Server, SSMS, and SQL.
 SQL Server Bu — Microsoft tomonidan yaratilgan ma’lumotlar bazasini boshqarish dasturi/tizimi.
 SSMS (SQL Server Management Studio)Bu — SQL Server bilan ishlash uchun mo‘ljallangan grafik interfeysli dastur.
-SQL (Structured Query Language) ma’lumotlar bazasi bilan ishlash uchun yaratilgan maxsus dasturlash tili.
+SQL (Structured Query Language) ma’lumotlar bazasi bilan ishlash uchun maxsus dasturlash tili.
 
 
 Research and explain the different SQL commands: DQL, DML, DDL, DCL, TCL with examples.
@@ -58,3 +58,22 @@ INSERT INTO Students (StudentID, Name, Age) VALUES
 (2, 'Dilshod', 21),
 (3, 'Malika', 19);
 Select * from Students
+
+
+
+
+Task 9:
+Download the AdventureWorksDW2022.bak file to your computer.
+
+Save the file to a known location, for example:
+C:\Backups\AdventureWorksDW2022.bak
+Launch SQL Server Management Studio. Connect to SQL Server instance.
+In Object Explorer, right-click on the "Databases" folder.
+Click on "Restore Database…
+In the Restore Database window:
+Under Source, choose "Device".
+Click the "…" (Browse) button next to Device.
+In the Select backup devices window, click Add.
+Browse to C:\Backups\AdventureWorksDW2022.bak and select the file.
+Click OK.
+ Choose the Restore Options.  Adjust File Locations (if needed). Start the Restore
